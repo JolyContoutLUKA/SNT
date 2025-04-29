@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title> SITE SNT </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1> <strong> Bienvenue sur mon site, je suis Lakaka (Luka joly contout) </strong> </h1>
+<p> <strong> Je vais ici vous faire découvrir une matière, la SNT </strong> </p>
+<p>
+</p>
+<br />
+<br />
+<p> La SNT (Sciences Numériques et Technologiques) est une matière qui ne se présente aux élèves qu'en classe de Seconde. Elle englobe plusieurs chapitres à propos de programmation (Python...) ainsi que certains thèmes concernant des objets et systèmes informatiques du quotidien, tels que les réseaux sociaux ou la création de sites web.
+</p>
+<br />
+<br />
+<br />
+<br />
+</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<h3 id="programmationpython"> </h3>
+<h3> <strong><em> Programmation Python</strong></em>
+<br />
+<br />
+<br />
+<br />
+<p3> <strong> I. Affectation de variables </strong> </p3>
+<br />
+<br />
+<p2>
+Lorsqu'on veut stocker des valeurs (pour les réutiliser ensuite par exemple), il est important de les <em> affecter à des variables </em>. Ces variables peuvent être nommées comme vous le voulez, et permettent de réutiliser des valeurs au fur-et-à-mesure du programme 
+<br />
+Il est important de savoir qu'une variable prendra toujours la dernière valeur qui lui a éte affectée. <br />
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3> <strong> II. Types de variables </strong> </p3>
+<br />
+<br />
+<p2>
+Il esiste plusieurs types de variables en langage Python. Elles seront notamment utiles lorsqu'un utilisateur affectera lui-même des valeurs à des variables.
+Parmi elles, on retrouve: <br />
+-<em> int </em>: lorsqu'il s'agit d'un nombre entier relatif. <br />
+-<em> float </em>: lorsqu'il s'agit d'un nombre décimal (à virgule) relatif. Les virgules sont remplacées par un point pour éviter les confusions. <br />
+-<em> string </em> (abrégé <em> str </em>): lorsque la variable contient une chaîne de caractères (quand d'autres caractères que des nombres entrent en jeu). <br />
+-<em> list </em>: lorsqu'il s'agit d'une liste de nombres les uns à la suite des autres, séparés par des virgules et entre crochets. Exemple: [1, 2, 3]. <br />
+-<em> booléens </em> (abrégé <em> bool </em>): il n'en existe que deux de ce type, True (vrai) et False (faux). Ceux-ci permettent de vérifier des conditions selon qu'elles soient vraies ou fausses. ATTENTION: l'orthographe et les majuscules doivent être respectées.
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3><strong> III. Entrées et sorties </strong></p3>
+<br />
+<br />
+<br />
+<p2>
+<strong> 1. Entrées </strong>
+<br />
+<br />
+Lorsque l'utilisateur doit affecter lui-même des valeurs à des variables, on utilise la fonction <em>input</em>. Celle-ci demande à l'utilisateur de rentrer une valeur, de sorte que le programme continue ensuite de s'exécuter en tenant compte des nouvelles valeurs. Cependant, il faudra adapter le programme en fonction du type de valeurs que l'utilisateur est censé rentrer grâce aux types de variables. <br />
+Par exemple, si l'utilisateur doit rentrer un nombre entier, il faudra écrire dans le programme: variable=int(input()). <br />
+Remarque: il est possible de donner une instruction à l'utiliasteur en l'écrivant entre guillements entre les parenthèses. <br />
+<br />
+<br />
+<br />
+<strong> 2. Sorties </strong>
+<br />
+<br />
+Lorsque vous désirez que le programme affiche quelque chose à l'écran, il faudra utiliser la fonction <em>print</em>. Ce que cette fonction affichera se trouvera dans la console, c'est-à-dire dans un cadre en dehors du programme. Pour cela, il faudra placer des parenthèses juste après la fonction <em>print</em>, dans lesquelles il faudra écrire entre guillemets ce que vous voulez. Par exemple:<br />
+print("Tout est super génial") affichera dans la console "Tout est super génial!". <br />
+ATTENTION: si vous ne mettez pas de guillemets, le programme considèrera votre message comme une variable, et celle-ci n'aura aucun sens (message d'erreur) si elle n'a pas été définie auparavant.
+<br />
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3> <strong>IV. Les différentes opérations</strong> </p3>
+<br />
+<br />
+<p2>
+En python, certaines opérations ne s'écrivent pas de la même façon. Les additions et les soustractions s'écrivent toujours avec les signes "+" et"-", mais ce sera différent pour les autres:<br />
+-La multiplication est symbolisée par un "*" <br />
+-La division par un "/" <br />
+-La puissance par "**" <br />
+-La division entière (euclydienne) par "//" <br />
+-Le reste de la division euclydienne par "%" <br />
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3> <strong>V. Instructions conditionnelles</strong> </p3>
+<br />
+<br />
+<be />
+<br />
+<p2>
+<strong>1. Fonctions if/elif/else</strong>
+<br />
+<br />
+Lorsqu'on veut valider une condition pour que le programme continue, on utilise trois fonctions: <br />
+-<em>if</em>(=si...): pour imposer une condition. <br />
+-<em>elif</em>(=else if): pour imposer unc autre condition si la première n'est pas validée.<br />
+-<em>else</em>(=sinon): si la condition n'est validée par aucune des fonctions précédentes.<br />
+Il est important de ne pas oublier le ":" après une ligne d'instruction conditionnelle et de mettre une tabulation au début de chaque ligne dépendante de cette condition.<br />
+<br />
+<br />
+<br />
+<strong>2. Opérateurs and/or</strong>
+<br />
+<br />
+Lorsqu'on veut vérifier deux conditions à la fois, on les met côte-à-côte avec l'opérateur <em>and</em> (="et") entre les deux. <br />
+Ici, pour afficher n1, il faut qu'il soit supérieur à 4 <strong>et</strong> inférieur à 11. <br />
+Si l'on impose deux conditions mais qu'il n'est nécessaire de valider qu'une des deux, on place l'opérateur <em>or</em> (="ou") entre les deux. <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3> <strong>VI. Fonction <em>range()</em></strong> </p3>
+<br />
+<br />
+<br />
+<p2>
+<strong>1. Liste dans l'ordre croîssant</strong>
+<br />
+<br />
+Pour afficher une lise de nombres dans l'ordre croîssant, on peut utiliser la fonction <em>range</em>. On peut trouver, dans les parenthèses qui la suivent, jusqu'à trois nombres, séparés par des virgules. S'il n'y a qu'un seul nombre, elle affiche tous les nombres de 0 jusqu'au nombre rentré dans les parenthèses. S'il y en a deux, elle affiche tous les nombres entre les deux. S'il y en a trois, on suppose range(a, b, n), il affichera tous les nombres entre a et b par sauts de n.
+
+Remarque: si vous utilisez directement la fonction <em>print</em>, il faudra mettre un "*" devant le <em>range</em>.
+<br />
+<br />
+<br />
+<strong>2. Instructions répétitives: Boucle bornée</strong>
+<br />
+<br />
+Si l'on veut afficher une même chose un certain nombre de fois, la fonction <em>range</em> peut être utilisée différemment: en rajoutant <em>"for loop in"</em> devant le <em>range():</em>, le programme répétera l'instruction qui suit un certain nombre de fois. Ce nombre de répétitions sera défini par le nombre entre parenthèses.
+<br />
+<br />
+<br />
+<br />
+<strong>3. Instructions répétitives: Boucle non bornée</strong>
+<br />
+<br />
+Lorsqu'on veut répéter des instructions un nombre de fois indéfini à l'avance, on utilise la fonction <em>while</em> (="tant que"). Cette fonction permet de continuer à répéter une instruction tant qu'une condition qui lui est liée n'est pas validée. Cette condition à valider se trouve juste derrière le <em>while</em> sans virgule ou autre séparation.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3> <strong>VII. Fonctions Python</strong> </p3>
+<br />
+<br />
+<p2>
+Les fonctions Python sont comme en Mathématiques: elles sont comparables à une machine dans laquelle on fait entrer une banane pour qu'elle en fasse ressortir de la compote de banane. <br />
+En Python, il faut commencer par <strong>définir</strong> la fonction pour déterminer ce qu'elle doit faire. Pour cela, il suffit d'écrire sur son programme "def (nom de la fonction)". Ensuite, tout dépend de ce que vous voulez en faire. Si vous voulez afficher tous les nombres entre deux paramètres d'entrée (deux nombres), voici ce que vous pouvez faire: <br />
+<br />
+<br />
+Pour plus d'informations et des entraînements: <a href="https://www.france-ioi.org/algo/chapters.php">France.IOI</a>
+<br />
+<br />
+<br />
+<br />
+</p2>
+<h4 id="donneesstructurees"> </h4>
+<h4> <strong><em>Données Structurées</strong></em> </h4>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h5 id="lesreseauxsociaux"> </h5>
+<h5> <strong><em>Les Réseaux Sociaux</strong></em> </h5>
+<br />
+<br />
+<p3> <strong>I. Caractéristiques des réseaux sociaux</strong> </p3>
+<br />
+<br />
+<br />
+<p2>
+<strong>1. Qu'est-ce qu'un réseau social?</strong>
+<br />
+<br />
+Dans la vie quotidienne, un réseau social est un ensemble d'individus, appelé communauté, qui interagissent ensemble autour d'un centre d'intérêts commun. <br/>
+Sur le web, c'est le même principe: la seule différence est qu'il s'agit d'une plateforme numérique reliant les internautes entre eux, toujours autour d'un même centre d'intérêts.
+Inventés à la fin des années 1900 avec Sixdegrees (bien que le sujet du premier réseau social fasse encore débat), ils se sont développés de plus en plus rapidement au début des années 2000. <br /> <br />
+Parmi eux on retrouve plusieurs types de réseaux sociaux: <br />
+-Le partage de contenu (vidéos, photos...): YouTube, Instagram, Pinterest, Snapchat... <br />
+-Messagerie: WhatsApp... <br />
+-Conversation à distance: Skype... <br />
+-Réseaux professionnels: LinkedIn... <br/>
+<br />
+<br />
+<br />
+<strong>2. Algorithmes de recommandation</strong>
+<br />
+<br />
+Un algorithme de recommandation sert à établir le profil, les goûts et les préférences des utilisateurs afin d'améliorer leur expérience et d'attirer de plus en plus de monde. Pour cela, ils se servent de leur immense base de données leur permettant d'avoir toujours quelque chose à proposer selon nos goûts. <br /> Et pour créer cette même base de données, ils récoltent des informations (en se limitant quand même aux goûts hein ;) ) tout au long du parcours de l'utilisateur: lors de l'inscription, des recherches, des likes... Chaque action est enregistrée dans le but de proposer des contenus adaptés.
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3> <strong>II. Les sources de revenus des réseaux sociaux</strong> </p3>
+<br />
+<br />
+<br />
+<p2>
+<strong>1. Publicités ciblées</strong>
+<br />
+<br />
+La base de données des réseaux sociaux est également utilisée pour faire de la publicité ciblée: en la mettant au service d'annonceurs commerciaux, ceux-ci sont capables de proposer des publicités en fonction des goûts des utilisateurs, de sorte à susciter davantage leur attention. Ainsi, les réseaux sociaux sont payés par les annonceurs pour leur permettre de faire leurs publicités, servant elles-mêmes à inciter l'achat de leurs produits.
+<br />
+<br />
+<br />
+<strong>2. Les services avantageux</strong>
+<br />
+<br />
+Afin de réaliser de plus gros bénéfices, les réseaux sociaux ont développé leurs propres services payants: ceux-ci ne sont pas obligatoires, mais ils offrent des privilèges aux utilisateurs qui les achètent: suppression des publicités, possibilités de personnalisation du profil... Il y a par exemple Snapchat+, Nitro, X Premium...
+<br />
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3> <strong>III. Graphes et "Petit Monde"</strong> </p3>
+<br />
+<br />
+<br />
+<p2>
+<strong>1. Les graphes</strong>
+<br />
+<br />
+Les scientifiques ont développé un système de graphes afin d'analyser les communautés qui se forment sur les réseaux sociaux, en représentant schématiquement les relations établies entre les internautes. Ceux-ci sont représentés par des "sommets" et leurs relations par des "arêtes", comme dans un polygone. Et pour étudier ces graphes, on utilise pluseurs paramètres: <br />
+-Le centre: c'est le sommet qui a le plus de relations avec les autres internautes. <br />
+-Le rayon: c'est la distance la pls courte entre le centre et le sommet le plus éloigné. <br />
+-Le diamètre: c'est la distance la plus courte entre les deux sommets les plus éloignés. <br />
+<br />
+<br />
+<br />
+<strong>2. Petit Monde et degrés de séparation</strong>
+<br />
+<br />
+Afin de déterminer le nombre minimum de relations nécessaires pour relier deux individus quelconques dans le monde, le scientifique Stanley Milgram a inventé au XXème siècle le concept de "degrés de séparation". Par exemple, Jonathan a le numéro de Bertrand(1), le fils de Marcel(2) qui est le meilleur ami de Michel(3), le grand-père de Lucie(4), qui a le numéro de Maria (5), la petite fille de la reine Elizabeth II. Donc il y a en tout 5 personnes intermédiaires nécessaires pour relier Jonathan à Elizabeth II, donc le degré de séparation est de 5. <br />
+<br />
+Actuellement, le degré de séparation moyen est de 6 relations (d'où le nom de Sixdegrees), et baisse de plus en plus: puisque le développement des réseaux sociaux est de plus en plus rapide, on a besoin de moins en moins de relations intermédiaires pour relier deux individus. <br /> <br />
+En conservant l'exemple de Jonathan et d'Elizabeth II, en supposant que Jonathan ait directement le numéro de Lucie, la chaîne se réduira à Jonathan => Lucie(1) => Maria(2) => Elizabeth II. Le degré de séparation sera alors de 2 relations. <br />
+Remarque: Vous l'aurez probablement compris: si jamais tout le monde avait le numéro de tout le monde (bien que ce soit impossible), il n'y aurait plus besoin de personnes intermédiaires pour relier deux individus => le degré de séparation moyen sera alors de 0.
+<br />
+<br />
+<br />
+</p2>
+<p3><strong>IV. Les dangers des réseaux sociaux</strong> </p3> <br />
+<br />
+<br />
+<p2>
+Bien évidemment, les réseaux sociaux ne seront jamais parfaits tant que les utilisateurs ne seront pas tous parfaits: il y a toujours des personnes malveillantes qui essayent de les utiliser pour commettre leurs méfaits. Parmi celles-ci, on retrouve par exemple: <br />
+-Le cyberharcèlement (harcèlement via Internet); <br />
+-L'usurpation d'identité; <br />
+-Le phishing/hameçonnage (tromperie d'une personne d'une manière ou d'une autre dans le but de voler ses données personnelle); <br />
+-La manipulation; <br />
+-Des contenus violents; <br />
+-Des incitations à la haine; <br />
+-Piratage; <br />
+-Diffusion de fausses informations <br />
+En France, ces méfaits sont punis par la loi, et si jamais vous êtes victime de cyberharcèlement, vous pouvez vous rendre sur le site <a href="https://www.education.gouv.fr/non-au-harcelement">nonauharcelement.education.gouv.fr</a>, ou vous pouvez également appeler le 30 20.
+</p2>
+<br />
+<br />
+<br />
+<br />
+<h6 id="informatiqueembarquee"> </h6>
+<h6> <strong><em>Informatique Embarquée & Objets Connectés</strong></em> </h6>
+<br />
+<br />
+<br />
+<p3><strong>I. L'informatique embarquée</strong></p3>
+<br />
+<br />
+<p2>On dit qu'un objet contient de l'informatique embarquée lorsqu'il contient des programmes informatiques dans son microprocesseur, servant à assurer le fonctionnement de l'appareil, en plus des composantes électroniques.
+<br />
+<br />
+<br />
+<strong>1. Capteurs et actionneurs</strong>
+<br />
+<br />
+Pour bien fonctionner, il peut avoir besoin d'interagir avec l'extérieur: cela peut être fait grâce aux capteurs et aux actionneurs. <br />
+Tandis que les capteurs mesurent des grandeurs physiques (température environnante, rythme cardiaque, luminosité...) pour acquérir des informations de l'extérieur et ensuite les convertir en signaux électriques numérisables, les actionneurs agissent directement sur celui-ci de différentes manières (mouvements, sons, en émettant de la lumière...).
+<br />
+<br />
+<br />
+<strong>2. Interface homme-machine</strong>
+<br />
+<br />
+Lorsqu'un appareil a besoin qu'un utilisateur lui donne des instructions lui-même pour assurer son bon fonctionnement, il peut avoir recours à une interface homme-machine (IHM), constituée de capteurs et d'actionneurs. On y retrouve par exemple des claviers et souris d'ordinateur, des manettes de PS4 ou les écrans eux-mêmes.
+<br />
+<br />
+<br />
+</p2>
+<p3><strong>II. Les objets connectés</strong></p3>
+<br />
+<br />
+<br />
+<p2>
+<strong>1. L'Internet Of Things (IOT)</strong>
+<br />
+<br />
+Un objet connecté est un appareil capable de communiquer avec d'autres appareils via Internet. <br />
+L'ensemble de ces objets connectés est appelé l'Internet Of Things (=Internet des objets), et peut comporter des Smartphones, des montres connectées, des voitures, des électroménagers et tous les appareils Bluetooth.
+<br />
+<br />
+<br />
+<strong>2. Les contraintes des objets connectés</strong>
+<br />
+<br />
+En 2020, on compte 10 à 30 milliards d'objets connectés dans le monde, ce qui a provoqué la saturation des réseaux. Ce phénomène s'explique par la demande croîssante d'inovations techniques en termes de limitation de la consommation d'énergie, de puissance des batteries, de miniaturisation des composantes... <br />
+Et concernant la sécurité, l'Internet Of Things pose également certains problèmes: leur connexion à Internet peut les rendre accessibles à distance par des personnes malveillantes. De plus, le détournement des objets connectés peut entraîner la fuite de données (y compris des données personnelles) et puisqu'ils sont dépendants d'Internet, il suffirait d'une faille dans le réseau, comme une panne, pour que tout l'Internet Of Things devienne vulnérable.
+<br />
+<br />
+<br />
+<br />
+<h7 id="photonumerique"> </h7>
+<h7> <strong><em>Photographie Numérique</strong></em> </h7> <br /> <br />
+<br />
+<br />
+<br />
+<br />
+</p2>
+<p3><strong>I. Capture d'images numériques</strong></p3>
+<br />
+<br />
+<br />
+<p2>
+Les photosites sont des capteurs composés d'éléments photosensibles (sensibles à la lumière) permettant aux appareils photo de capturer des images. Ils convertissent la lumière reçue en signaux électriques, qui sont ensuite exploités par un convertisseur analogique-numérique, et les informations sont au final sauvegardées souf forme de données numériques.
+<br />
+<br />
+Pour obtenir des images en couleur, les photosites possèdent une matrice de filtres colorés (comme le filtre de Bayer). Celui-ci possède trois couleurs: le rouge, le vert et le bleu, pour mesurer séparément les intensités de nuances de couleurs.
+<br />
+<br />
+<br />
+<br />
+Comme vous pouvez le voir sur l'image ci-dessus, la couleur la plus présente parmi les trois est le vert, en raison de la plus forte sensibilité de l'oeil à ses différentes nuances. <br />
+<br />
+<br />
+<br />
+</p2>
+<p3><strong>II. Les images numériques</strong></p3>
+<br />
+<br />
+<p2>
+<strong>1. Les pixels</strong>
+<br />
+<br />
+Les données des photosites sont enregistrées sous forme de quadrillage. <br /> <br />
+<br />
+<br />
+<br />
+Chaque case, appelée "pixel", est codée selon trois composantes de couleur (rouge, vert et bleu toujours). Pour définir la qualité d'une image, on utilise deux paramètres: <br />
+-La définition: le nombre total de pixels sur une image; plus ce nombre est élevé, plus la qualité est élevée (1080 pixels sera d'une meilleure qualité que 144 pixels), notée <em>l</em> x <em>h</em> (le nombre de pixels sur la largeur multiplié par le nombre de pixels sur la hauteur) <br />
+-La résolution: le nombre de pixels par unité de longueur, exprimée en PPP (pixels par pouce). <br />
+1 pouce=2,54cm.
+<br />
+<br />
+<br />
+<br />
+<br />
+<strong>2. Synthèse additive</strong>
+<br />
+<br />
+La synthèse additive est la fusion des couleurs rouge, vert et bleu, qui permet d'obtenir un grand nombre de couleurs. Chaque composante (les couleurs ici) est décrite par 8 bits, donc avec 256 valeurs (de 0 à 255). Chaque couleur est donc représentée par une série de trois nombres de 0 à 255, séparés par des virgules: le premier nombre correspond à la proportion de rouge, le deuxième correspond à celle de vert et le troisième à celle de bleu.
+<br />
+<br />
+<br />
+<br />
+<br />
+<strong>3. Formats de fichiers</strong
+<br />
+<br />
+Un fichier peut-être utilisé sous de nombreux formats (jpg, png, webp, raw, tiff, etc...), dont certains sont exclusifs à la photographie. Ceux-ci utilisent des algorithmes de compression afin de diminuer le volume de données du fichier sans affecter la qualité de l'image.< br/>
+<br />
+Lorsqu'on prend une photo, un certain nombre de données, qui ne décrivent pas des pixels, sont crées. Celles-ci sont appelées "métadonnées EXIF" et apportent des informations détaillées sur l'image (la définition, la résolution, les dimensions, la profondeur de couleur, le lieu et la date de la photo...), mais aussi des informations sur l'appareil ayant pris la photo (la marque, le modèle, etc...)
+<br />
+<br />
+<br />
+</p2>
+<p3>III. Le traitement des images</p3>
+<br />
+<br />
+<p2>
+Un appareil photo est capable d'effectuer certains traitements automatiques après ou lors d'une prise de vue: <br />
+-La stabilisation mécanique ou numérique, afin de compenser les éventuels mouvements lors d'une photo, et donc éviter que l'image ne soit totalement floue. <br />
+-La retouche des images après la prise de vue, à des fins artistiques, esthétiques, humoristiques ou totalement mensongères. <br />
+Donc, avec toutes les avancées technologiques, il est important d'avoir un regard critique sur les images que l'on voit.
+<br />
+<br />
+<br />
+<br />
+<h8 id="localisationcartographie"> </h8>
+<h8> <strong><em>Localisation & Cartographie</strong></em> </h8>
+<br />
+<br />
+
+<br />
+<br />
+<br />
+</p2>
+<p3><strong>I.Latitude et longitude</strong></p3>
+<br />
+<br />
+<p2>
+La latitude est l'angle formé entre la verticale du lieu étudié et le plan équatorial par rapport au centre de la Terre, exprimée en degrés (de 0° à 90° nord ou sud). <br />
+La longitude est quant à elle l'angle pointant vers l'est ou l'ouest par rapport au Méridien de Greenwich. Elle est également exprmée en degrés, de 0° à 180° à l'est ou à l'ouest. <br/>
+<br />
+<br />
+<br />
+<h9 id="internetweb"> </h9>
+<h9> <strong><em>Internet & Web</strong></em> </h9>
+<br />
+<br />
+<br />
+1. Qu'est-ce qu'Internet ?
+
+Internet est un réseau mondial qui connecte des millions d'appareils (ordinateurs, smartphones, etc.) permettant l'échange de données via des protocoles standardisés. Il fonctionne selon un modèle client-serveur (le client fait une demande, le serveur répond).
+2. Le Web : Une partie d'Internet
+
+Le Web est un service d'Internet permettant d'accéder à des pages web. Ces pages sont écrites en HTML et reliées entre elles par des liens hypertextes. Un navigateur web permet de visualiser ces pages.
+3. Les Protocoles de Communication
+
+    HTTP/HTTPS : Protocoles permettant d’accéder aux pages web. HTTPS est sécurisé.
+
+    DNS : Système qui traduit les noms de domaine (ex. www.google.com) en adresses IP.
+
+    URL : C’est l’adresse d’une ressource sur le Web (ex. https://www.google.com/index.html).
+
+4. Types de Sites Web
+
+    Sites statiques : Contenu fixe.
+
+    Sites dynamiques : Contenu qui change selon l’utilisateur (ex. réseaux sociaux).
+
+    Blogs : Sites personnels ou professionnels avec des articles.
+
+5. La Sécurité sur Internet
+
+    Chiffrement (HTTPS) : Protection des données envoyées entre l’utilisateur et le serveur.
+
+    Menaces : Virus, malwares, phishing.
+
+    Protection : Utilisation d’antivirus, de mots de passe robustes et de la double authentification.
